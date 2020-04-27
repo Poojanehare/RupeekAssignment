@@ -23,11 +23,6 @@ public class BasicLib {
      baseURI = "http://13.126.80.194";
 	 port=8080;
 	 
-	 //Basic Authentication
-	  String basicauth = given().auth().basic("rupeek","password").toString();
-	 
-	 //Bearer Token
-     RequestSpecification token = given().auth().oauth2(basicauth);
 	 
 	}
 }
